@@ -1,0 +1,9 @@
+*.o
+*.a
+*#
+*~
+config_parser
+config_parser.dSYM/
+config_parser_test
+gtest-all.o
+libgtest.a
