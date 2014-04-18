@@ -14,7 +14,7 @@ protected:
 
 // Test valid config files
 TEST_F(NginxFileConfigTest, SimpleConfig) {
-  EXPECT_TRUE(ParseFile("test_config_files/example_file"));
+  EXPECT_TRUE(ParseFile("test_config_files/example_config"));
 }
 TEST_F(NginxFileConfigTest, TypicalConfig) {
   EXPECT_TRUE(ParseFile("test_config_files/typical_config"));
